@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="Header">
+      <div class="phone">
+        <img src="ARH/images/phone.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="header-logo">
+        <img src="ARH/images/logo.png" alt="" />
+      </div>
+
+      <!-- end header -->
+
+      <!-- Navigation -->
+      <div class="navigation">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">OUR ANIMALS</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </div>
+      <!-- end navigation -->
+
+      <!-- slider -->
+
+      <div class="slider">
+        <div class="slides">
+          <img src="ARH/images/slider-image-s1.png" alt="Image 1" />
+          <img src="ARH/images/slider-image-s2.png" alt="" />
+          <img src="ARH/images/slider-image-s3.png" alt="" />
+        </div>
+        <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+        <button class="next" onclick="plusSlides(1)">&#10095;</button>
+      </div>
+
+
+
+      <!-- content-->
+     <div class="content">
+      
+        <div class="left">
+          <p>
+            <h3>JM Breedders</h3>
+             R.A text.Example
+             <br>
+             P.O.Box.xxx.xxx.brown Ranch
+             <br>
+             Road Example
+             <br>
+             THrockmortan,TX xxx
+          </p>
+          <img src="ARH/images/border-left.png" alt="akaka">
+        
+        <div>
+
+        </div>
+      </div>
+
+      <div class="right">
+       
+        <img src="ARH/images/fb.png" alt="" id="spcial-icons">
+        <img src="ARH/images/tw.png" alt="" id="spcial-icons">
+         <img src="ARH/images/border-right.png" alt="">
+         
+      </div>
+
+     
+     </div>
+
+     <!-- footer -->
+
+     <div class="footer-container">
+      <div class="footer">
+        Copyright 2014 JM Bredders All Right Reserved
+      </div>
+     </div>
+    </div>
+
+
+
+    
+  </body>
+
+  <script>
+    let slideIndex = 0;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides((slideIndex += n));
+    }
+
+    function showSlides(n) {
+      const slides = document.querySelectorAll(".slides img");
+
+      if (n >= slides.length) {
+        slideIndex = 0;
+      }
+      if (n < 0) {
+        slideIndex = slides.length - 1;
+      }
+
+      slides.forEach((slide) => (slide.style.display = "none"));
+      slides[slideIndex].style.display = "block";
+    }
+  </script>
+</html>

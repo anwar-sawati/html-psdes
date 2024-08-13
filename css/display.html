@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* =>Block:display block get full width  exe: div, p , form h1 */
+      /* full width, new line , hieght and width  can be applied */
+
+      /* => Inline: span, a , img  */
+      /* no full width, no newline  , cant apply  hieght and width */
+
+      /*inline-block:   no full width, no newline  , but can apply  hieght and width */
+
+      /* flex */
+      /* 
+      .flex-container {
+        background-color: blue;
+        display: flex;
+        justify-content:center;
+      }
+      .flex-child {
+        padding: 10px;
+        margin: 10px;
+        background-color: antiquewhite;
+        width: 100px;
+
+        text-align: center;
+      }
+
+      #one {
+        flex-grow: 2;
+      }
+      #two {
+        flex-grow: 4;
+      } */
+
+      /* top-navbar  */
+
+      .flex-container {
+        background-color: blue;
+        display: flex;
+      }
+
+      .flex-child-left {
+        background-color: antiquewhite;
+        flex-grow: 2;
+        text-align: start;
+      }
+
+      .flex-child-left ul li {
+        list-style-type: none;
+        display: inline-flex;
+        padding: 10px 30px 0px 30px;
+      }
+
+      .flex-child-right {
+        background-color: antiquewhite;
+        text-align: center;
+        flex-grow: 5;
+        border: 2px solid red;
+        text-align: end;
+      }
+      .flex-child-right ul li {
+        list-style-type: none;
+        display: inline-flex;
+        padding: 10px 30px 0px 30px;
+      }
+
+      .flex-child-right ul li a {
+        text-decoration: none;
+        font-size: x-large;
+        text-align: end;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="flex-child-left" id="one">
+        <ul>
+          <li>0517737</li>
+          <li>anwarswati@gmail.com</li>
+        </ul>
+      </div>
+
+      <div class="flex-child-right" id="two">
+        <ul>
+          <li><a href="">Fb</a></li>
+          <li><a href="">Youtube</a></li>
+          <li><a href="">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

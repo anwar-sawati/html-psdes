@@ -1,0 +1,24 @@
+h1 {
+  background: gray;
+
+  /* padding : space between the content and border is called padding*/
+  padding: 20px 30px 40px 40px; /*  get padding from top bottom left right */
+
+  /* padding: 25px;       //get 25px  padding from every side tom bottom left right */
+}
+
+body {
+  border: 5px dotted;
+}
+
+div {
+  border: solid;
+}
+
+/* margin: out side the border space between the other element */
+.margin {
+  /* margin-top: 50px; */
+  /* margin: 50px; */
+  width: 300px;
+  margin: 20px auto;
+}

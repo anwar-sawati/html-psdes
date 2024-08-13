@@ -1,0 +1,191 @@
+body {
+  background-image: url(AR/images/bg.jpg);
+  background-repeat: no-repeat;
+
+  margin: 0 auto;
+  border: 2px solid royalblue;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* header */
+
+/* header-container {
+  
+} */
+
+.logo-left {
+  width: 500px;
+  padding: 20px;
+}
+.logo-left img {
+  width: 370px;
+  height: 100px;
+}
+
+.logo-right {
+  padding: 20px;
+  width: 500px;
+  height: 30%;
+
+  position: relative;
+  left: 540px;
+  bottom: 125px;
+}
+.logo-right img {
+  padding: 15px;
+  width: 285px;
+  height: 70px;
+  position: relative;
+  left: 70px;
+  top: 10px;
+}
+/* end header */
+
+/* navbar */
+.navigation-container {
+  background-color: rgb(3, 36, 3);
+  padding-bottom: 5px;
+  position: relative;
+  bottom: 185px;
+  padding-left: 50px;
+}
+
+#navigation ul li {
+  padding: 10px 30px 0px 30px;
+  display: inline-flex;
+}
+
+#navigation ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
+/* end-navbar */
+
+/* content */
+.content-container {
+  background-color: rgb(101, 126, 58);
+  display: flex;
+  position: relative;
+  bottom: 200px;
+}
+
+.left-sideBar {
+  width: 270px;
+  margin: 0 auto;
+  padding: 10px 0px 0px 10px;
+
+  /*   
+  position: relative;
+  bottom: 17px; */
+}
+
+/* mid portion */
+.mid-content-container {
+  width: 460px;
+  background-color: rgb(60, 82, 23);
+  padding: 0px 0px 0px 10px;
+
+  position: relative;
+  top: 10px;
+  margin-bottom: 15px;
+}
+
+#mid-content-uperEnd {
+  padding: 20px;
+  color: white;
+  display: inline;
+}
+
+#mid-content-uperEnd span img {
+  width: 130px;
+}
+
+#mid-content-lowerEnd {
+  background-color: beige;
+}
+
+#mid-c-img {
+  float: left;
+  padding-right: 10px;
+}
+
+#mid-c-txt {
+  color: black;
+}
+
+#mid-c-txt p strong {
+  color: rgb(224, 156, 107);
+}
+
+#mid-c-txt p strong1 {
+  color: rgb(97, 79, 79);
+}
+/* end-content */
+
+/* right side bar */
+.right-sideBar {
+  width: 270px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  background-color: darkolivegreen;
+  position: relative;
+  top: 10px;
+  color: chocolate;
+}
+
+.right-sideBar p strong {
+  color: rgb(238, 175, 130);
+}
+
+.right-sideBar p {
+  color: aliceblue;
+}
+
+/* end content */
+
+.flower-bg {
+  position: relative;
+  bottom: 200px;
+}
+
+/* site links */
+.site-container {
+  position: relative;
+  bottom: 170px;
+}
+
+.site-1 {
+  display: inline-block;
+  padding: 0px 50px 0px 50px;
+}
+.site-1 ul li {
+  list-style-type: none;
+}
+
+.site-1 ul li a {
+  text-decoration: none;
+}
+
+/* end site links */
+
+/* footer */
+.footer-container {
+  position: relative;
+  bottom: 150px;
+}
+.footer-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+.footer {
+  border-top: 0.5px dashed rgb(196, 182, 182);
+  text-align: center;
+  color: dimgray;
+}

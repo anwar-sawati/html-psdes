@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* transform  */
+      #transform {
+        width: 100px;
+        height: 100px;
+        padding: 50px;
+        background-color: blue;
+        transition-property: bg-color;
+        transition-property: width;
+      }
+
+      #transform:hover {
+        background-color: aquamarine;
+        width: 200px;
+      }
+
+      /* animation */
+
+      @keyframes changecolor {
+        from {
+          background: red;
+        }
+        to {
+          background: #000;
+        }
+      }
+
+      #animation {
+        border: 2px solid green;
+        background: brown;
+        width: 100px;
+        height: 100px;
+        animation-name: changecolor;
+        animation-duration: 2s;
+        animation-iteration-count: 3;
+      }
+
+      /* <!-- for responsive web design -->
+       */
+
+      #div1 {
+        width: 70%;
+        height: 100px;
+        background: #000;
+        float: left;
+      }
+      #div2 {
+        width: 30%;
+        height: 100px;
+        background-color: aqua;
+        float: left;
+      }
+
+      @media screen and(max-width: 768px) {
+        #div1 {
+          width: 100%;
+        }
+        #div2 {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="transform"></div>
+
+    <hr />
+
+    <div id="animation"></div>
+    <hr />
+
+    <!-- for responsive web design -->
+
+    <div id="div1">div1</div>
+    <div id="div2">div2</div>
+  </body>
+</html>

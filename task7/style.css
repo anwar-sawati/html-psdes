@@ -1,0 +1,110 @@
+.wrapper {
+  border: 1px solid black;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.topBar-container {
+  display: flex;
+}
+
+.topbar-right {
+  margin: 20px;
+  padding-left: 398px;
+}
+
+/* header */
+.header-container {
+  justify-content: end;
+}
+
+.header {
+  background-image: url(remolders/images/phonebg.jpg);
+  color: aliceblue;
+  padding-left: 880px;
+}
+
+/* content1 */
+
+.content1 {
+  display: flex;
+}
+
+.c1-left {
+  width: 60%;
+}
+
+.c1-left p span {
+  font-size: large;
+  font-weight: bold;
+}
+
+.c1-left a {
+  text-decoration: none;
+  color: chocolate;
+}
+
+.c1-right {
+  width: 40%;
+  padding-top: 10px;
+}
+
+.caption-text {
+  background-image: url(remolders/images/formheader.png);
+  color: chocolate;
+  width: 360px;
+}
+.caption-text span {
+  color: beige;
+}
+
+.c1-right form fieldset {
+  background-color: rgb(45, 44, 44);
+  margin-bottom: 80px;
+  width: 83%;
+  height: 220px;
+}
+.c1-right form fieldset input {
+  padding-left: 30px;
+  margin: 10px;
+  width: 90%;
+  height: 25px;
+}
+
+.c1-right form fieldset button {
+  background-color: rgb(218, 103, 15);
+}
+
+/* content2 */
+.content2 {
+  display: flex;
+}
+
+.c2-left {
+}
+
+.c2-left p span {
+  font-size: large;
+  font-weight: bold;
+}
+
+.c2-left a {
+  text-decoration: none;
+  color: chocolate;
+}
+
+.c2-right {
+  padding-left: 20px;
+}
+.c2-right form fieldset {
+  background-color: rgb(59, 56, 56);
+  margin-top: 55px;
+}
+
+.c2-right form fieldset input {
+  width: 94%;
+}
+
+.c2-right form fieldset button {
+  background-color: rgb(218, 103, 15);
+}

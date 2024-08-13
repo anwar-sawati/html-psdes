@@ -1,0 +1,187 @@
+#header {
+  /* background-color: aqua; */
+  width: 40%;
+  float: left;
+}
+
+#logo-img {
+  width: 40%;
+  height: 110px;
+  position: relative;
+  top: 20px;
+  left: 100px;
+  z-index: 2;
+}
+
+#header-contact {
+  /* background: yellowgreen; */
+  width: 55%;
+  text-align: center;
+  display: inline-block;
+}
+
+/* navbar */
+
+#navbar-img {
+  width: 95%;
+  position: relative;
+}
+
+#nav ul li {
+  display: inline;
+  position: relative;
+  bottom: 70px;
+  left: 15vw;
+}
+
+#nav ul li a {
+  text-decoration: none;
+  margin: 15px;
+  font-size: larger;
+  color: white;
+  padding: 20px;
+}
+
+/* slider img */
+
+.slider-container {
+  width: 100%;
+  position: relative;
+  bottom: 55px;
+  padding-right: 40px;
+}
+
+#slider-img1 {
+  position: relative;
+  left: 30px;
+  float: left;
+}
+#slider-img1 img {
+  width: 30vw;
+  height: 250px;
+}
+
+#slider-img2 {
+  float: left;
+  position: relative;
+  left: 30px;
+}
+
+#slider-img2 img {
+  width: 30vw;
+  height: 250px;
+}
+
+#slider-img3 {
+  position: relative;
+  left: 30px;
+  float: left;
+}
+
+#slider-img3 img {
+  width: 30vw;
+  height: 250px;
+}
+
+#txt-img1 {
+  background-color: rgb(24, 182, 24);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 25px;
+}
+
+#txt-img2 {
+  background-color: rgb(224, 101, 56);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 25px;
+}
+
+#txt-img3 {
+  width: 90%;
+
+  background-color: rgb(14, 166, 226);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 25px;
+}
+
+#text1 {
+  /* padding: 0px 30px; */
+  position: relative;
+  bottom: 85px;
+  width: 50%;
+  /* padding-top: 300px; */
+  /* background-color: aqua; */
+  float: left;
+}
+
+#text1 p span {
+  color: rgb(243, 164, 69);
+}
+
+#text2 {
+  float: left;
+  position: relative;
+  bottom: 85px;
+  left: 30px;
+  width: 50%;
+
+  /* background-color: beige; */
+}
+
+#text2 ul li {
+  padding: 5px;
+  color: rgb(223, 171, 93);
+}
+
+/* footer */
+
+.footer-container {
+  background-color: darkolivegreen;
+  position: relative;
+  top: 20vw;
+  width: 98%;
+}
+
+#footer-nav {
+  /* position: relative;
+  top: 20vw; */
+  height: 52vh;
+  width: 75%;
+  /* background-color: aqua; */
+}
+
+#footer-nav ul li {
+  display: inline;
+  padding: 30px;
+  position: relative;
+  bottom: 60vh;
+  float: left;
+}
+
+#footer-nav ul li a {
+  text-decoration: none;
+  font-size: large;
+  color: rgb(179, 179, 159);
+}
+
+#footer-nav p {
+  position: relative;
+  bottom: 45vh;
+  right: 35vw;
+  color: rgb(179, 179, 159);
+  /* background-color: brown; */
+}
+
+#footer-left {
+  float: left;
+  position: relative;
+  bottom: 67vh;
+  left: 30vw;
+  color: rgb(179, 179, 159);
+  /* background-color: blueviolet; */
+}

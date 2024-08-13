@@ -1,0 +1,115 @@
+body {
+  background-color: #ffffff;
+  margin: 0 auto;
+  border: 2px solid #dea4a4;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#header {
+  align-items: center;
+}
+
+#header img {
+  padding-left: 270px;
+}
+
+/* navbar with background img ---------------- content and Navbar */
+
+/* 
+.container-navbar {
+  
+} */
+
+/* #navbar-bg {
+ 
+} */
+
+#navbar-bg img {
+  width: 1000px;
+  height: 300px;
+}
+
+#navbar {
+  text-align: center;
+  background-image: url(ARHome/images/menu-bg.png);
+  background-repeat: no-repeat;
+  width: 50%;
+
+  position: relative;
+  bottom: 323px;
+  left: 285px;
+}
+
+#navbar ul li {
+  list-style-type: none;
+  padding: 15px;
+  display: inline-flex;
+}
+#navbar ul li a {
+  text-decoration-line: none;
+  color: #ffffff;
+}
+/* end nav bar with background img */
+
+/* text-content */
+
+#text-content {
+  text-align: center;
+
+  margin-bottom: -20px;
+  margin-left: 100px;
+  margin-right: 130px;
+  /* padding-right: 50px; */
+  position: relative;
+  bottom: 65px;
+}
+
+#heading img {
+  width: 70%;
+  height: 100px;
+}
+
+#right {
+  width: 50%;
+  float: left;
+}
+
+.left {
+  width: 50%;
+  float: right;
+}
+.grid-item {
+  background: gray;
+  padding: 25px;
+  border: 1px solid;
+  width: 40px;
+  height: 30px;
+  display: inline-flex;
+  margin: 5px;
+}
+
+/* footer */
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-container {
+  background-color: steelblue;
+}
+
+#footer-txt p {
+  text-indent: -130px;
+  position: relative;
+  top: 5px;
+}
+#footer-number p {
+  text-align: center;
+  position: relative;
+  bottom: 5px;
+}

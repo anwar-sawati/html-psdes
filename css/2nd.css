@@ -1,0 +1,28 @@
+#text {
+  width: 500px;
+  color: blue;
+  border: black solid;
+  /* text-align: center; */
+  text-align: justify;
+
+  /* line hight  gape between text */
+  line-height: 20px;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  border: dotted 5px;
+}
+#parent {
+  border: solid red;
+  font-size: 40px;
+}
+
+#child {
+  border: solid green;
+  /* rem  compare  own html tag  and  em compare own  html_parent */
+  font-size: 3rem;
+}
